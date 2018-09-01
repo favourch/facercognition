@@ -67,9 +67,8 @@
       Webcam.snap( function(data_uri) {
       
         
-        $('#blah2').attr('src',data_uri); 
-
-        $('#imgVal').val(data_uri);   
+      $('#blah2').attr('src',data_uri); 
+      $('#imgVal').val(data_uri);   
     
       $.ajax({
            url: "recognize.php" ,

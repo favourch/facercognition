@@ -8,9 +8,12 @@
 
 class Facerecognition {
 
- protected $hostname ='http://api.kairos.com/';
- protected $app_id = "a3b3e403";
- protected $app_key ="7aeddabf47f779ce448514a56f5a24f3";
+ protected $hostname ='';
+ protected $app_id = "";
+ protected $app_key ="";
+
+
+
 
 
 
